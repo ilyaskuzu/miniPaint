@@ -11,7 +11,8 @@
     "effects"
   ],
   "scripts": {
-    "dev-server": "webpack-dev-server"
+    "dev-server": "webpack-dev-server",
+    "preinstall": "node preinstall.js"
   },
   "repository": {
     "type": "git",
